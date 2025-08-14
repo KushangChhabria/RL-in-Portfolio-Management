@@ -1,0 +1,10 @@
+gymnasium
+numpy
+pandas
+matplotlib
+seaborn
+yfinance
+scikit-learn
+torch
+stable-baselines3[extra]
+optuna

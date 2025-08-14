@@ -1,0 +1,21 @@
+# agents/td3_agent.py
+
+from stable_baselines3 import TD3
+from agents.base_agent import BaseAgent
+
+class TD3Agent(BaseAgent):
+    def __init__(self, price_array, window_size=60, log_dir=None,
+                 max_drawdown_penalty=0.1, volatility_penalty=0.05,
+                 strategy_mode="long_only", use_optuna=False,
+                 optuna_params_path="optuna_td3_params.json"):
+        super().__init__(
+            model_class=TD3,
+            price_array=price_array,
+            window_size=window_size,
+            log_dir=log_dir,
+            max_drawdown_penalty=max_drawdown_penalty,
+            volatility_penalty=volatility_penalty,
+            strategy_mode=strategy_mode,
+            use_optuna=use_optuna,
+            optuna_params_path=optuna_params_path
+        )

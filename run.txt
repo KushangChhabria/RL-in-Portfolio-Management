@@ -1,0 +1,2 @@
+python train/train_ppo.py
+python evaluate.py --model_path ppo_portfolio

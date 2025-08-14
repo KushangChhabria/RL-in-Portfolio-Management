@@ -1,0 +1,9 @@
+{
+    "window_size": 60,
+    "price_array_shape": [
+        1042,
+        5
+    ],
+    "log_dir": "./logs",
+    "timestamp": "2025-07-28_23-14-44"
+}
