@@ -90,10 +90,10 @@ python evaluate.py --agent PPO --model_path ppo_portfolio.zip
 ##📜 Research Context
 
 -**This system was developed to:**
-  -Explore DRL’s ability to adapt to dynamic market conditions.
-  -Integrate financial risk measures directly into the reward function.
-  -Build a modular, production-ready RL trading system with real-time capabilities.
-  -It combines quantitative finance techniques with deep reinforcement learning algorithms to move beyond static optimization and towards adaptive decision-making.
+  - Explore DRL’s ability to adapt to dynamic market conditions.
+  - Integrate financial risk measures directly into the reward function.
+  - Build a modular, production-ready RL trading system with real-time capabilities.
+  - It combines quantitative finance techniques with deep reinforcement learning algorithms to move beyond static optimization and towards adaptive decision-making.
   
   ---
 ##🛠 Tech Stack
